@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GMP Chat Ajax</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header>
+    <h1>GMP Chat Ajax</h1>
+  </header>
+  
+  <section class="chat">
+    <div class="messages">
+     
+    </div>
+    <div class="user-inputs">
+      <form action="handler.php?task=write" method="POST">
+        <input type="text" name="author" id="author" placeholder="Pseudo">
+        <input type="text" id="content" name="content" placeholder="Message">
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </section>
+  <script src="js/app.js"></script>
+</body>
+</html>
